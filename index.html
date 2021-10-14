@@ -33,7 +33,22 @@ p {
 }
 
 p1 {
+  font-family: sans-serif;
   background-color: lightgrey;
+}
+
+p2 {
+  font-family: sans-serif;
+  border-style: groove;
+}
+
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
 }
   
 </style>
@@ -58,8 +73,27 @@ ne connaissent que 2 états, ouvert ou fermé, représentés par <p1>0 ou 1</p1>
         <p>Le code binaire est si éloigné de la pensée humaine que les utilisateurs ont dû imaginer un moyen plus rapide pour représenter des nombres binaires.</br>Ce système de base 16 comprend 16 symboles qui sont les chiffres et symboles suivant <p1>0,1,2,3,4,5,6,7,8,9, A, B, C, D, E, F</p1><br/>Ex : N = (56A)<sub>16</sub> = <p1>$56A = 5.16<sup>2</sup> + 6.16<sup>1</sup> + 10.16<sup>0</sup><p1/>
 
 		<h3>1.4°) Tableau récapitulatif</h3>
-        <p>
-
+        <table>
+        <tr>
+        	<th>SYSTEME</th>
+        	<th>BASE</th>
+        	<th>SYMBOLES</th>
+       	 	<th>POIDS</th>
+        </tr>
+        <tr>
+           <td>Binaire</td>
+           <td>2</td>
+           <td>0, 1</td>
+           <td>2<sup>n</sup>...2<sup>2</sup>2<sup>1</sup>2<sup>0</sup></td>
+         </tr>
+         <tr>
+         	<td>Décimal</td>
+            <td>10</td>
+            <td>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</td> 
+            <td>10<sup>n</sup> ... 10<sup>2</sup> 10<sup>1</sup> 10<sup>0</sup></td>
+        
+        </table>
+        
 
   </body>
 </html>
